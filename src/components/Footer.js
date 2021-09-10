@@ -119,7 +119,7 @@ export class Footer extends Component {
                       id="button-addon1"
                       type="submit"
                       className="btn btn-link"
-                      style={{ backgroundColor: "white", height: "38px" }}
+                      style={{ backgroundColor: "white", height: "38px" }}n
                     >
                       <i
                         className="bi bi-search"

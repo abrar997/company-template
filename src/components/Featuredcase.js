@@ -3,9 +3,9 @@ import React, { Component } from "react";
 export class Featuredcase extends Component {
   render() {
     const { infoFeatured } = this.props;
-    const Featured = infoFeatured.map((item) => {
+    const Featured = infoFeatured.map(( item ,ind) => {
       return (
-        <div key={item} className="item d-flex col-lg-6">
+        <div key={ind} className="item d-flex col-lg-6">
           <img src={item.imgUrl} />
           <div className="text">
             <h5>{item.h}</h5>

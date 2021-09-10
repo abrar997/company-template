@@ -1197,13 +1197,13 @@ margin-right: -30px;  }
     margin-top: 10px;
   }
   .AboutUs .row .left {
-    width: 400px;
+    width: 340px;
     height: 420px;
   }
 
   .AboutUs .row .right {
-    margin-left: -60px;
-    width: 645px;
+    margin-left: -120px;
+    width: 680px;
   }
 
   .AboutUs .container img {

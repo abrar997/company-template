@@ -1,0 +1,1590 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+* {
+  font-family: "Courgette", cursive;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(133, 22, 41);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  color: black;
+  border-radius: 20%;
+  width: 170px;
+  font-weight: 600;
+  font-size: 27px;
+  background-color: rgb(190, 184, 184);
+  outline: none;
+}
+button:hover {
+  background: linear-gradient(
+    rgb(34, 26, 28),
+    rgb(155, 123, 123),
+    rgb(82, 26, 26)
+  );
+  color: white;
+  transition: all 0.5s ease;
+}
+.nav {
+  background-color: white;
+}
+/* nav bar */
+nav {
+  margin-top: 10px;
+}
+/* nav bar brand */
+nav .navbar-brand {
+  color: rgb(133, 22, 41) !important;
+  font-weight: 600;
+  font-size: 24px;
+}
+/* brand span (1)*/
+nav .navbar-brand span:nth-child(1) {
+  color: black;
+  font-size: 28px;
+}
+/* brand span (2)*/
+nav .navbar-brand span:nth-child(2) {
+  font-size: 30px;
+}
+/* collapse */
+.collapse {
+  margin-left: 500px !important;
+}
+/* nav-item */
+.collapse .nav-item .nav-link {
+  padding: 16px;
+  font-size: 23px;
+  color: rgb(133, 22, 41);
+  /* transition: all 0.9s ease; */
+  text-transform: capitalize;
+  transition: all 0.7s ease;
+}
+
+.collapse .nav-item:hover .nav-link {
+  /* background-color: rgb(133, 22, 41); */
+  color: rgb(185, 174, 174);
+  /* padding-bottom: 12px; */
+  font-size: 21px;
+}
+
+/* end component Nav */
+/* -------------------- */
+
+.Backgrondone .imageBack img {
+  width: 60%;
+  position: relative;
+  height: 738px;
+  margin-top: 30px;
+  margin: auto;
+}
+/* text div  */
+.Backgrondone .text {
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(rgb(43, 30, 29), rgb(7, 41, 46), rgb(63, 11, 20));
+  opacity: 0.7;
+  width: 99%;
+  top: 100px;
+  height: 720px;
+  box-shadow: 1px 1px 18px #eee;
+  border-left: 1px solid #eee;
+  border-radius: 13px;
+  left: 0.5%;
+}
+/* textBackground  */
+.Backgrondone .text .textBackground {
+  /* background-color: rgb(216, 211, 211); */
+  height: 550px;
+  width: 500px;
+  position: absolute;
+  z-index: 33;
+  right: 245px;
+  top: 50px;
+  color: black;
+  border-radius: 10%;
+  text-align: center;
+  margin-left: 10px;
+}
+/* span child 1 */
+.Backgrondone span:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 33px;
+  padding-top: 20px;
+  color: hsl(0, 32%, 70%);
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* border-bottom: 4px solid white; */
+  padding-bottom: 10px;
+}
+/* text h1 */
+.Backgrondone .text h1 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 40px;
+  color: rgb(223, 200, 223);
+  font-size: 60px;
+}
+/* text h span className one */
+.Backgrondone .text h1 .first {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-bottom: none;
+}
+/* text h span className Services */
+.Backgrondone .text h1 .two {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+/* text p */
+.Backgrondone .text p {
+  margin-top: 40px;
+  font-size: 23px;
+  text-transform: capitalize;
+  color: white;
+}
+/* button */
+.Backgrondone .text button {
+  margin-top: 20px;
+  width: 210px;
+  margin-left: 10px;
+}
+
+/* end component Backgrondone */
+/* -------------------- */
+
+/* h1 className headerServicesh11 */
+.Services .container .row .headerServicesh11 {
+  font-size: 25px;
+  color: rgb(133, 22, 41);
+  margin-top: 100px;
+  margin-left: 50px;
+}
+/* h1 className headerServicesh1 */
+.Services .container .row .headerServicesh1 {
+  margin-top: 140px;
+  margin-left: -220px;
+  font-size: 43px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.589);
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.795); */
+  text-transform: uppercase;
+}
+/* cards grpoup of card */
+.Services .container .row .cards {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+/* inside card body of card   */
+.Services .container .row .testimotionals {
+  display: inline-block;
+  margin-left: 50px;
+  height: 350px;
+}
+/* single card */
+.container .row .testimotionals .card {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 1px 1px 17px rgb(207, 206, 206);
+  margin-left: -60px;
+}
+/*  layer on card change background and color of text */
+.Services .container .row .testimotionals .card .layer {
+  z-index: 1;
+  position: absolute;
+  top: calc(100% - 0px);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(to left, rgb(133, 22, 41), rgb(133, 22, 41));
+  transition: 0.7s;
+}
+/* hover layer */
+.Services .container .row .testimotionals .card:hover .layer {
+  top: 0;
+}
+/* content of card */
+.Services .container .row .testimotionals .card .content {
+  z-index: 2;
+  position: relative;
+}
+/* p */
+.Services .container .row .testimotionals .card .content p {
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(133, 22, 41);
+  text-transform: capitalize;
+}
+/* hover p */
+.Services .container .row .testimotionals .card:hover .content p {
+  color: white;
+}
+/* h4 */
+.Services .container .row .testimotionals .card .content h4 {
+  color: rgba(0, 0, 0, 0.795);
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+/* hover h4 */
+.Services .container .row .testimotionals .card:hover .content h4 {
+  color: white;
+}
+/* icon from bootstrap className bi */
+.bi {
+  color: rgb(133, 22, 41);
+  cursor: pointer;
+}
+/* hover icon */
+.Services .container .row .testimotionals .card:hover .content .bi {
+  color: white;
+}
+
+/* end component Services */
+/* -------------------------- */
+
+/* div  */
+.AboutUs {
+  margin-top: 110px;
+  height: 700px;
+  margin-bottom: 170px;
+}
+/* left with background rgb(133, 22, 41) */
+.AboutUs .row .left {
+  background: rgb(133, 22, 41);
+  height: 750px;
+  position: relative;
+}
+/* left with background rgb(13, 83, 94) */
+.AboutUs .row .right {
+  background: rgb(13, 83, 94);
+  position: relative;
+}
+/* image and text div */
+.AboutUs .container {
+  position: absolute;
+}
+/* img */
+.AboutUs .container img {
+  margin-top: -770px;
+  width: 490px;
+  height: 620px;
+  margin-left: 390px;
+}
+/* text */
+.AboutUs .container .text {
+  margin-top: -620px;
+  margin-left: 930px;
+  text-align: center;
+}
+
+/* h1 */
+.AboutUs .container .text h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  /* color: white; */
+  color: rgb(235, 223, 235);
+}
+/* h1 span code/Mu. */
+.AboutUs .container .text h1 span {
+  color: rgb(187, 176, 176);
+  font-size: 28px;
+  text-transform: none;
+}
+/* p */
+.AboutUs .container .text p {
+  color: white;
+  font-size: 22px;
+}
+/* btn */
+.AboutUs .container .text .btn {
+  background: rgb(133, 22, 41);
+  font-size: 25px;
+  margin-top: 70px;
+  color: rgb(216, 210, 210);
+  padding: 15px;
+}
+/* btn hover */
+.AboutUs .container .text .btn:hover {
+  background: rgb(10, 68, 77);
+  color: white;
+  border: 2px solid rgb(187, 176, 176);
+}
+/* h3 change by handle event click */
+.AboutUs .container .text h3 {
+  font-size: 19px;
+  color: rgb(231, 227, 227);
+  margin-top: 40px;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+
+/* end component Aboutus  */
+/* --------------------------- */
+
+/* team component */
+
+.Team {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* h4 */
+.Team h4 {
+  color: rgb(133, 22, 41);
+  font-size: 19px;
+  line-height: 12px;
+  font-weight: 600;
+}
+/* h1 */
+.Team h1 {
+  margin-top: 30px;
+  margin-left: -270px;
+  font-size: 43px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.589);
+  text-transform: uppercase;
+}
+/* div */
+.Team .container .row {
+  margin-left: 60px;
+}
+/* card single */
+.Team .card {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  width: 330px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 1px 1px 12px rgb(207, 206, 206);
+  margin-top: 40px;
+  text-align: center;
+}
+/* h5 */
+.Team .card h5 {
+  color: rgb(133, 22, 41);
+  font-size: 31px;
+  text-transform: capitalize;
+}
+/* p */
+.Team .card p {
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+/* class btn */
+.Team .btnss {
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.Team .btn {
+  margin-left: 10px;
+  box-shadow: 1px 1px 19px rgb(194, 191, 191);
+  color: rgb(133, 22, 41);
+  font-size: 21px;
+  font-weight: 700;
+}
+.Team .btn:hover {
+  background-color: rgb(133, 22, 41);
+  color: white;
+}
+
+.Team img {
+  width: 90%;
+  height: 75%;
+  margin: auto;
+  margin-top: -30px;
+}
+
+/* end Team component */
+/* ---------------------- */
+
+/* h4 */
+.featured h4 {
+  color: rgb(133, 22, 41);
+  font-size: 19px;
+  line-height: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+/* h1 */
+.featured h1 {
+  margin-top: 30px;
+  margin-left: -230px;
+  font-size: 43px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(32, 32, 32, 0.87);
+  text-transform: uppercase;
+}
+
+.featured {
+  margin-top: 50px;
+}
+.featured .cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.item {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column;
+}
+.item {
+  width: 860px;
+}
+.item img {
+  width: 95%;
+}
+
+.featured .cards .text {
+  background-color: rgb(139, 58, 72);
+  margin: auto;
+  margin-top: -40px;
+  width: 80%;
+  /* color: white; */
+  padding: 20px;
+}
+
+.featured .cards .text h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: rgba(241, 237, 237, 0.658);
+}
+.featured .cards .text h3 {
+  font-size: 19px;
+  color: rgb(221, 218, 218);
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+/* end component  featured with map  */
+/* ============================== */
+
+/* Swiper */
+
+.swiper {
+  height: 550px;
+  margin-top: 100px;
+  border-top: 0.4px solid rgb(133, 22, 41);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  border-bottom: 0.4px solid rgb(133, 22, 41);
+}
+/* h4 */
+.swiper h4 {
+  color: rgb(133, 22, 41);
+  font-size: 19px;
+  line-height: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+/* h1 */
+.swiper .swiperheader {
+  margin-top: 30px;
+  margin-left: -180px;
+  font-size: 43px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.733);
+  text-transform: uppercase;
+}
+/* main div */
+.swiper .container .row {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+}
+/* class carousel-inner */
+.swiper .container .row .carousel-inner {
+  margin: auto;
+  box-shadow: 1px 1px 17px rgb(206, 203, 203);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.swiper .container .row .carousel-inner .carousel-item {
+  padding: 40px;
+}
+/* p */
+.swiper .container .row .carousel-inner .carousel-item p {
+  text-align: center;
+  font-size: 33px;
+  border-bottom: 1px solid rgb(197, 193, 193);
+  padding-bottom: 30px;
+  color: rgb(133, 22, 41);
+}
+/* h1 */
+.swiper .container .row .carousel-inner .carousel-item h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* icon  */
+.swiper .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 70px;
+  margin-top: 90px;
+  /* display: none; */
+}
+/* prev swiper icon */
+.swiper .carousel-control-prev-icon {
+  margin-left: 200px;
+  background-color: rgb(133, 22, 41);
+}
+
+/* next swiper icon */
+.swiper .carousel-control-next-icon {
+  background-color: rgb(122, 100, 103);
+  margin-right: 200px;
+}
+
+/* end component Swiper */
+/* ========================================== */
+
+/* footer */
+footer {
+  background-color: rgb(133, 22, 41) !important;
+  color: white;
+}
+/* footer ul li a */
+footer .text-muted {
+  color: rgb(235, 231, 231) !important;
+}
+/* end component footer */
+
+/* ============================ */
+
+/* media query */
+/* 0px to 557px */
+
+@media all and (max-width: 575px) {
+  /* nav  */
+
+  .nav button {
+    box-shadow: 1px 1px 15px #eeee;
+    position: absolute;
+    top: 15px;
+    width: 70px;
+    left: 420px;
+    transition: all 0.5s ease;
+  }
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(133, 22, 41);
+    left: -500px;
+    width: 500px;
+    top: 30px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+  }
+  .collapse {
+    z-index: 888;
+  }
+
+  .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+  }
+  /* ------------ */
+
+  /* backgroundone component  */
+  .Backgrondone .imageBack img {
+    position: relative;
+    width: 40%;
+    height: 438px;
+    margin-top: 100px;
+    left: 10px;
+  }
+
+  .Backgrondone .text {
+    height: 600px;
+  }
+  .Backgrondone .text h1 {
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-right: -460px;
+    word-spacing: 4px;
+  }
+  .Backgrondone span:nth-child(1) {
+    font-size: 23px;
+    margin-right: -450px;
+  }
+
+  .Backgrondone .text h1 .first {
+    margin-right: -10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text h1 .two {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text button {
+    margin-left: 370px;
+  }
+  .Backgrondone .text p {
+    margin-right: -290px;
+    font-size: 19px;
+  }
+  /* -------------------- */
+
+  .Services {
+    margin-left: 60px;
+  }
+
+  .Services .container .row .headerServicesh11 {
+    font-size: 20px;
+    padding-left: 60px;
+  }
+  .Services .container .row .headerServicesh1 {
+    font-size: 30px;
+  }
+  .Services .container .row .cards {
+    display: flex;
+    flex-flow: column;
+  }
+  .Services .container .row .card {
+    height: 300px;
+  }
+
+  .Services .container .row .testimotionals .card .content p {
+    font-size: 15px;
+  }
+  .Services .container .row .testimotionals .card .content h4 {
+    font-size: 24px;
+  }
+  /* ---------------- */
+  .AboutUs {
+    margin-top: 10px;
+  }
+  .AboutUs .row .left {
+    width: 200px;
+    height: 520px;
+  }
+
+  .AboutUs .row .right {
+    margin-left: -60px;
+    width: 370px;
+  }
+
+  .AboutUs .container img {
+    width: 60%;
+    height: 230px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+
+  .AboutUs .container .text {
+    margin-left: -0px;
+    padding-top: 350px;
+  }
+  .AboutUs .container .text h1 {
+    font-size: 20px;
+  }
+  .AboutUs .container .text h1 span {
+    font-size: 22px;
+  }
+  .AboutUs .container .text p {
+    font-size: 10px;
+  }
+
+  .AboutUs .container .text h3 {
+    font-size: 12px;
+  }
+
+  .AboutUs .container .text .btn {
+    font-size: 14px;
+    margin-top: -1px;
+  }
+  /* ----------------------------- */
+  .Team h4 {
+    margin-top: -270px;
+    margin-left: 30px;
+    font-size: 19px;
+  }
+  .Team h1 {
+    margin-top: -240px;
+    font-size: 32px;
+  }
+  .Team .container .row {
+    margin-right: -30px;
+  }
+  .Team .card {
+    margin-top: -140px;
+    width: 280px;
+    height: 300px;
+    margin-bottom: 150px;
+    margin-right: -10px;
+  }
+
+  .Team .card h5 {
+    font-size: 19px;
+  }
+  .Team .card p {
+    font-size: 15px;
+  }
+  .Team .btnss {
+    display: flex;
+    flex-flow: row;
+    margin-left: 150px;
+    margin-top: -90px;
+  }
+  /* ------------------ */
+
+  /* body{overflow-x: hidden;} */
+  .featured h4 {
+    font-size: 15px;
+    margin-left: 170px;
+  }
+  .featured h1 {
+    font-size: 23px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+  }
+  .featured {
+    display: flex;
+    flex-flow: column;
+  }
+  .featured .cards .text {
+    margin-top: -20px;
+  }
+  .item {
+    width: 200px;
+  }
+
+  .featured .cards .text h5 {
+    font-size: 12px;
+  }
+  .featured .cards .text h3 {
+    font-size: 10px;
+  }
+
+  /* ------------------- */
+
+  .swiper {
+    margin-top: 10px;
+    padding-top: 55px;
+    height: 450px;
+  }
+  .swiper h4 {
+    font-size: 12px;
+    margin-left: 90px;
+  }
+  .swiper .swiperheader {
+    font-size: 23px;
+    margin-left: 40px;
+  }
+
+  .swiper .container .row {
+    width: 280px;
+    height: 300px;
+    margin-left: 70px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item p {
+    font-size: 12px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item h1 {
+    font-size: 15px;
+  }
+  .swiper .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin: auto;
+  }
+  .swiper .carousel-control-next-icon {
+    margin-right: 30px;
+  }
+
+  footer h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+  footer h6 {
+    font-size: 15px;
+  }
+  footer .text-muted {
+    font-size: 10px !important;
+  }
+}
+
+
+/* @media all and (min-width:575px) (max-width: 768px ) { */
+
+   @media all and (min-width:575px)and (max-width: 768px ) {
+  .nav button {
+    box-shadow: 1px 1px 15px #eeee;
+    position: absolute;
+    top: 15px;
+    width: 70px;
+    left: 420px;
+    transition: all 0.5s ease;
+  }
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(133, 22, 41);
+    left: -500px;
+    width: 500px;
+    top: 30px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+  }
+  .collapse {
+    z-index: 888;
+  }
+
+  .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+  }
+  /* ------------ */
+
+  /* backgroundone component  */
+  .Backgrondone .imageBack img {
+    position: relative;
+    width: 40%;
+    height: 438px;
+    margin-top: 100px;
+    left: 10px;
+  }
+
+  .Backgrondone .text {
+    height: 600px;
+  }
+  .Backgrondone .text h1 {
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-right: -460px;
+    word-spacing: 4px;
+  }
+  .Backgrondone span:nth-child(1) {
+    font-size: 23px;
+    margin-right: -450px;
+  }
+
+  .Backgrondone .text h1 .first {
+    margin-right: -10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text h1 .two {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text button {
+    margin-left: 370px;
+  }
+  .Backgrondone .text p {
+    margin-right: -290px;
+    font-size: 19px;
+  }
+  /* -------------------- */
+
+ 
+  .Services {
+    margin-left: 60px;
+  }
+
+  .Services .container .row .headerServicesh11 {
+    font-size: 20px;
+    padding-left: 170px;
+  }
+  .Services .container .row .headerServicesh1 {
+    font-size: 30px;
+  }
+  .Services .container .row .cards {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .Services .container .row .card {
+    height: 300px;
+    width:250px;
+margin-left:-80px;  }
+
+  .Services .container .row .testimotionals .card .content p {
+    font-size: 15px;
+  }
+  .Services .container .row .testimotionals .card .content h4 {
+    font-size: 24px;
+  }
+  /* ---------------- */
+  .AboutUs {
+    margin-top: 10px;
+
+}
+  .AboutUs .row .left {
+    width: 400px;
+    height: 540px;
+  }
+
+  .AboutUs .row .right {
+    margin-left: -60px;
+    width: 402px;
+  }
+
+  .AboutUs .container img {
+    width: 70%;
+    height: 230px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+  }
+
+  .AboutUs .container .text {
+    margin-left: 130px;
+    padding-top: 330px;
+  }
+  .AboutUs .container .text h1 {
+    font-size: 20px;
+  }
+  .AboutUs .container .text h1 span {
+    font-size: 22px;
+  }
+  .AboutUs .container .text p {
+    font-size: 10px;
+  }
+
+  .AboutUs .container .text h3 {
+    font-size: 12px;
+  }
+
+  .AboutUs .container .text .btn {
+    font-size: 14px;
+    margin-top: -1px;
+  }
+  /* ----------------------------- */
+
+  .Team{height: 400px;}
+
+  .Team h4 {
+    margin-top: -270px;
+    margin-left: 30px;
+    font-size: 19px;
+  }
+  .Team h1 {
+    margin-top: -240px;
+    font-size: 32px;
+  }
+  .Team .container .row {
+   margin-left: 0px;
+  }
+  .Team .card {
+    margin-top: -140px;
+    width: 380px;
+    height: 300px;
+    padding:20px;
+    margin-bottom: 150px;
+  }
+
+  .Team .card h5 {
+    font-size: 19px;
+  }
+  .Team .card p {
+    font-size: 15px;
+  }
+  .Team .btnss {
+    display: flex;
+    flex-flow: row;
+    margin-left: 180px;
+    margin-top: -90px;
+  }
+  /* ------------------ */
+
+  /* body{overflow-x: hidden;} */
+    .featured {
+      margin-top: -40px;
+    }
+
+  .featured h4 {
+    font-size: 15px;
+    margin-left: 170px;
+  }
+  .featured h1 {
+    font-size: 23px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+  }
+  .featured {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 40px;
+  }
+  .featured .cards .text {
+    margin-top: -20px;
+  }
+  .item {
+    width: 260px;
+  }
+
+  .featured .cards .text h5 {
+    font-size: 12px;
+  }
+  .featured .cards .text h3 {
+    font-size: 10px;
+  }
+
+  /* ------------------- */
+
+  .swiper {
+    margin-top: 10px;
+    padding-top: 55px;
+    height: 450px;
+  }
+  .swiper h4 {
+    font-size: 12px;
+    margin-left: 210px;
+  }
+  .swiper .swiperheader {
+    font-size: 23px;
+    margin-left: -150px;
+  }
+
+  .swiper .container .row {
+    width: 510px;
+    height: 300px;
+    margin-left: 0px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item p {
+    font-size: 22px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item h1 {
+    font-size: 15px;
+  }
+  .swiper .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin: auto;
+  }
+  .swiper .carousel-control-next-icon {
+    margin-right: 30px;
+  }
+
+  footer h3 {
+    font-size: 31px;
+    text-align: center;
+  margin-top: 40px;}
+  footer h6 {
+    font-size: 15px;
+  }
+  footer .text-muted {
+    font-size: 10px !important;
+  }}
+
+  /* from 767px to 992px  */
+  
+   @media all and (min-width:769px)and (max-width: 992px ) {  .nav button {
+    box-shadow: 1px 1px 15px #eeee;
+    position: absolute;
+    top: 15px;
+    width: 70px;
+    left: 420px;
+    transition: all 0.5s ease;
+  }
+  .nav .navbar-nav {
+    position: relative;
+    background-color: rgb(133, 22, 41);
+    left: -500px;
+    width: 500px;
+    top: 30px;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    transition: all 0.6;
+  }
+  .collapse {
+    z-index: 888;
+  }
+
+  .collapse .nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+    margin: auto;
+  }
+  /* ------------ */
+
+  /* backgroundone component  */
+  .Backgrondone .imageBack img {
+    position: relative;
+    width: 40%;
+    height: 438px;
+    margin-top: 100px;
+    left: 10px;
+  }
+
+  .Backgrondone .text {
+    height: 600px;
+  }
+  .Backgrondone .text h1 {
+    font-size: 23px;
+    letter-spacing: 4px;
+    margin-right: -460px;
+    word-spacing: 4px;
+  }
+  .Backgrondone span:nth-child(1) {
+    font-size: 23px;
+    margin-right: -450px;
+  }
+
+  .Backgrondone .text h1 .first {
+    margin-right: -10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text h1 .two {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .Backgrondone .text button {
+    margin-left: 370px;
+  }
+  .Backgrondone .text p {
+    margin-right: -290px;
+    font-size: 19px;
+  }
+  /* -------------------- */
+
+  .Services {
+    margin-left: 60px;
+  }
+
+  .Services .container .row .headerServicesh11 {
+    font-size: 20px;
+    padding-left: 170px;
+  }
+  .Services .container .row .headerServicesh1 {
+    font-size: 30px;
+  }
+  .Services .container .row .cards {
+    display: flex;
+    flex-flow: row;
+  }
+  .Services .container .row .card {
+    height: 300px;
+    width:210px;
+margin-right: -30px;  }
+
+  .Services .container .row .testimotionals .card .content p {
+    font-size: 15px;
+  }
+  .Services .container .row .testimotionals .card .content h4 {
+    font-size: 24px;
+  }
+  /* ---------------- */
+  .AboutUs {
+    margin-top: 10px;
+  }
+  .AboutUs .row .left {
+    width: 400px;
+    height: 420px;
+  }
+
+  .AboutUs .row .right {
+    margin-left: -60px;
+    width: 645px;
+  }
+
+  .AboutUs .container img {
+    width: 40%;
+    height: 230px;
+    margin-left: 100px;
+    margin-bottom: -270px;
+ 
+  }
+
+  .AboutUs .container .text {
+    margin-left: 410px;
+    padding-top: 240px;
+    margin-right: -160px;
+  }
+  .AboutUs .container .text h1 {
+    font-size: 20px;
+  }
+  .AboutUs .container .text h1 span {
+    font-size: 22px;
+  }
+  .AboutUs .container .text p {
+    font-size: 20px;
+  }
+
+  .AboutUs .container .text h3 {
+    font-size: 16px;
+  }
+
+  .AboutUs .container .text .btn {
+    font-size: 14px;
+    margin-top: -1px;
+  }
+  /* ----------------------------- */
+
+  .Team{height: 400px;}
+
+  .Team h4 {
+    margin-top: -380px;
+    margin-left: 30px;
+    font-size: 19px;
+  }
+  .Team h1 {
+    margin-top: -350px;
+    font-size: 32px;
+  }
+  .Team .container .row {
+   margin-left: 40px;
+  }
+  .Team .card {
+    margin-top: -230px;
+    width: 380px;
+    height: 300px;
+    margin-bottom: 150px;
+  }
+
+  .Team .card h5 {
+    font-size: 19px;
+  }
+  .Team .card p {
+    font-size: 15px;
+  }
+  .Team .btnss {
+    display: flex;
+    flex-flow: row;
+    margin-left: 270px;
+    margin-top: -90px;
+  }
+  /* ------------------ */
+
+  /* body{overflow-x: hidden;} */
+  .featured {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 40px;
+    margin-top: -200px;
+  }
+
+  .featured h4 {
+    font-size: 15px;
+    margin-left: 170px;
+    margin-top: -0px;
+  }
+  .featured h1 {
+    font-size: 23px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+  }
+
+  .featured .cards .text {
+    margin-top: -20px;
+  }
+  .item {
+    width: 260px;
+  }
+
+  .featured .cards .text h5 {
+    font-size: 12px;
+  }
+  .featured .cards .text h3 {
+    font-size: 10px;
+  }
+
+  /* ------------------- */
+
+  .swiper {
+    margin-top: 10px;
+    padding-top: 55px;
+    height: 450px;
+  }
+  .swiper h4 {
+    font-size: 12px;
+    margin-left: 210px;
+  }
+  .swiper .swiperheader {
+    font-size: 23px;
+    margin-left: -150px;
+  }
+
+  .swiper .container .row {
+    width: 510px;
+    height: 300px;
+    margin-left: 80px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item p {
+    font-size: 22px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item h1 {
+    font-size: 15px;
+  }
+  .swiper .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin: auto;
+  }
+  .swiper .carousel-control-next-icon {
+    margin-right: 30px;
+  }
+
+  footer h3 {
+    font-size: 31px;
+    text-align: center;
+  margin-top: 40px;}
+  footer h6 {
+    font-size: 15px;
+  }
+  footer .text-muted {
+    font-size: 10px !important;
+  }}
+
+
+  /* from 992px to 1200px */
+
+   @media all and (min-width:992px)and (max-width: 1200px )  {
+  nav{margin-left: -40px;}
+  .collapse .nav-item  {
+margin-left:-20px;
+  }
+  /* ------------ */
+
+  /* backgroundone component  */
+  .Backgrondone .imageBack img {
+    position: relative;
+    width: 40%;
+    height: 438px;
+    margin-top: 100px;
+    left: 10px;
+  }
+
+  .Backgrondone .text {
+    height: 600px;
+    margin-top: 30px;
+  }
+  .Backgrondone .text h1 {
+    font-size:26px;
+    letter-spacing: 4px;
+    margin-right: -460px;
+    word-spacing: 4px;
+    margin-top: 30px;
+
+  }
+  .Backgrondone span:nth-child(1) {
+    font-size: 29px;
+    margin-right: -450px;
+  }
+
+  .Backgrondone .text h1 .first {
+    margin-right: -10px;
+    font-size: 19px;
+  }
+  .Backgrondone .text h1 .two {
+    margin-left: 10px;
+    font-size: 19px;
+  }
+  .Backgrondone .text button {
+    margin-left: 370px;
+  }
+  .Backgrondone .text p {
+    margin-right: -290px;
+    font-size: 19px;
+  }
+  /* -------------------- */
+
+  .Services {
+    margin-left: 60px;
+  }
+
+  .Services .container .row .headerServicesh11 {
+    font-size: 20px;
+    padding-left: 60px;
+  }
+  .Services .container .row .headerServicesh1 {
+    font-size: 30px;
+  }
+  .Services .container .row .cards {
+    display: flex;
+    flex-flow: row ;
+  }
+  .Services .container .row .card {
+    height: 300px;
+    width: 260px;
+  }
+
+  .Services .container .row .testimotionals .card .content p {
+    font-size: 15px;
+  }
+  .Services .container .row .testimotionals .card .content h4 {
+    font-size: 24px;
+  }
+  /* ---------------- */
+  .AboutUs {
+    margin-top: 10px;
+  }
+  .AboutUs .row .left {
+    width: 200px;
+    height: 520px;
+  }
+
+  .AboutUs .row .right {
+    margin-left: -60px;
+    width: 442px;
+  }
+
+  .AboutUs .container img {
+    width: 65%;
+    height: 290px;
+    margin-left: 100px;
+    margin-bottom:-150px;
+  }
+
+  .AboutUs .container .text {
+    margin-left: -0px;
+    padding-top: 200px;
+  }
+  .AboutUs .container .text h1 {
+    font-size: 20px;
+  }
+  .AboutUs .container .text h1 span {
+    font-size: 22px;
+  }
+  .AboutUs .container .text p {
+    font-size: 19px;
+  }
+
+  .AboutUs .container .text h3 {
+    font-size: 12px;
+  }
+
+  .AboutUs .container .text .btn {
+    font-size: 14px;
+    margin-top: -1px;
+  }
+  /* ----------------------------- */
+  .Team h4 {
+    margin-top: -270px;
+    margin-left: 0px;
+    font-size: 19px;
+  }
+  .Team h1 {
+    margin-top: -240px;
+    font-size: 32px;
+  }
+  .Team .container .row {
+   margin-left: 00px;
+  }
+  .Team .card {
+    margin-top: -140px;
+    width: 280px;
+    height: 300px;
+    margin-bottom: 150px;
+    margin-right: -10px;
+  }
+
+  .Team .card h5 {
+    font-size: 19px;
+  }
+  .Team .card p {
+    font-size: 15px;
+  }
+  .Team .btnss {
+    display: flex;
+    flex-flow: row;
+    margin-left:360px;
+    margin-top: -90px;
+  }
+  /* ------------------ */
+ .featured {padding-bottom: 30px;}
+  .featured h4 {
+    font-size: 15px;
+    margin-left: 170px;
+  }
+  .featured h1 {
+    font-size: 23px;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+  }
+  .featured {
+    display: flex;
+    flex-flow: column;
+  }
+  .featured .cards .text {
+    margin-top: -20px;
+  }
+  .item {
+    width: 230px;
+  }
+
+  .featured .cards .text h5 {
+    font-size: 12px;
+  }
+  .featured .cards .text h3 {
+    font-size: 10px;
+  }
+
+  /* ------------------- */
+
+  .swiper {
+    margin-top: 10px;
+    padding-top: 55px;
+    height: 450px;
+  }
+  .swiper h4 {
+    font-size: 12px;
+    /* margin-left: 90px; */
+  }
+  .swiper .swiperheader {
+    font-size: 23px;
+    /* margin-left: 40px; */
+  }
+
+  .swiper .container .row {
+    width: 880px;
+    height: 300px;
+margin-right:20px;  }
+  .swiper .container .row .carousel-inner .carousel-item p {
+    font-size: 12px;
+  }
+  .swiper .container .row .carousel-inner .carousel-item h1 {
+    font-size: 15px;
+  }
+  .swiper .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    margin: auto;
+  }
+  .swiper .carousel-control-next-icon {
+    margin-right: 30px;
+  }
+
+  footer h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+  footer h6 {
+    font-size: 15px;
+  }
+  footer .text-muted {
+    font-size: 10px !important;
+  }    
+  }

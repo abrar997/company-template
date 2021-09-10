@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import Nav from './components/Nav';
+import Backgrondone from './components/Backgrondone'
+import Services from './components/Services';
+import Aboutus from './components/Aboutus';
+import Team from './components/Team';
+import Swiper from './components/Swiper';
+import Featuredcase from './components/Featuredcase';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import images from '../src/images/featured.png'
+
+
+
+export class App extends Component {
+  
+
+state={
+Featuredcase:[
+  { imgUrl:images,h:"Strategy planing",p:"within the consruction industry as their overdraft"},
+  { imgUrl:images,h:"Strategy planing",p:"within the consruction industry as their overdraft"},
+  { imgUrl:images,h:"Strategy planing",p:"within the consruction industry as their overdraft"},
+  { imgUrl:images, h:"Strategy planing", p:"within the consruction industry as their overdraft" }
+
+]
 }
 
-export default App;
+  render() {
+    return (
+      <div>
+        <Nav />
+        <Backgrondone  />
+        <Services />
+        <Aboutus title="OUR TOP SERVICES" />
+        <Team />
+        <Featuredcase infoFeatured={this.state.Featuredcase} />
+
+        <Swiper  />
+
+        <Footer />
+      </div>
+    )
+  }
+}
+
+export default App
+

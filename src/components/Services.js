@@ -1,9 +1,9 @@
-
 import React, { Component } from "react";
 
 
-export class Services extends Component {
+export class Services extends Component {  
   render() {
+
     return (
       <section className="Services">
         <div className="container">
@@ -13,7 +13,7 @@ export class Services extends Component {
               OUR TOP SERVICES
             </h1>
             <h1 className="headerServicesh1">our best services</h1>
-
+          
             <div className="cards mt-4" data-aos="fade-up">
               <div className="testimotionals col-lg-2 col-xl-3 col-md-4 col-sm-4">
                 <div className="card">
@@ -38,7 +38,11 @@ export class Services extends Component {
                   </div>
                 </div>
               </div>
+
+
               {/* ----------------- */}
+              
+              
               <div className="testimotionals mb-4 col-lg-2 col-xl-3 col-md-4 col-sm-4">
                 <div className="card">
                   <div className="layer"></div>

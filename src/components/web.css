@@ -75,7 +75,6 @@ nav .navbar-brand span:nth-child(2) {
 
 /* end component Nav */
 /* -------------------- */
-
 .Backgrondone .imageBack img {
   width: 60%;
   position: relative;
@@ -829,10 +828,9 @@ footer .text-muted {
   }
 }
 
-
 /* @media all and (min-width:575px) (max-width: 768px ) { */
 
-   @media all and (min-width:575px)and (max-width: 768px ) {
+@media all and (min-width: 575px) and (max-width: 768px) {
   .nav button {
     box-shadow: 1px 1px 15px #eeee;
     position: absolute;
@@ -843,7 +841,7 @@ footer .text-muted {
   }
   .nav .navbar-nav {
     position: relative;
-    background-color: rgb(133, 22, 41);
+    background-color:white;
     left: -500px;
     width: 500px;
     top: 30px;
@@ -857,7 +855,7 @@ footer .text-muted {
   }
 
   .collapse .nav-item .nav-link {
-    color: white;
+    color: rgb(133, 22, 41);
     font-size: 17px;
     margin: auto;
   }
@@ -903,7 +901,6 @@ footer .text-muted {
   }
   /* -------------------- */
 
- 
   .Services {
     margin-left: 60px;
   }
@@ -921,8 +918,9 @@ footer .text-muted {
   }
   .Services .container .row .card {
     height: 300px;
-    width:250px;
-margin-left:-80px;  }
+    width: 250px;
+    margin-left: -80px;
+  }
 
   .Services .container .row .testimotionals .card .content p {
     font-size: 15px;
@@ -933,16 +931,15 @@ margin-left:-80px;  }
   /* ---------------- */
   .AboutUs {
     margin-top: 10px;
-
-}
+  }
   .AboutUs .row .left {
-    width: 400px;
+    width: 219px;
     height: 540px;
   }
 
   .AboutUs .row .right {
     margin-left: -60px;
-    width: 402px;
+    width: 522px;
   }
 
   .AboutUs .container img {
@@ -976,7 +973,9 @@ margin-left:-80px;  }
   }
   /* ----------------------------- */
 
-  .Team{height: 400px;}
+  .Team {
+    height: 400px;
+  }
 
   .Team h4 {
     margin-top: -270px;
@@ -988,13 +987,13 @@ margin-left:-80px;  }
     font-size: 32px;
   }
   .Team .container .row {
-   margin-left: 0px;
+    margin-left: 0px;
   }
   .Team .card {
     margin-top: -140px;
     width: 380px;
     height: 300px;
-    padding:20px;
+    padding: 20px;
     margin-bottom: 150px;
   }
 
@@ -1013,9 +1012,9 @@ margin-left:-80px;  }
   /* ------------------ */
 
   /* body{overflow-x: hidden;} */
-    .featured {
-      margin-top: -40px;
-    }
+  .featured {
+    margin-top: -40px;
+  }
 
   .featured h4 {
     font-size: 15px;
@@ -1086,17 +1085,20 @@ margin-left:-80px;  }
   footer h3 {
     font-size: 31px;
     text-align: center;
-  margin-top: 40px;}
+    margin-top: 40px;
+  }
   footer h6 {
     font-size: 15px;
   }
   footer .text-muted {
     font-size: 10px !important;
-  }}
+  }
+}
 
-  /* from 767px to 992px  */
-  
-   @media all and (min-width:769px)and (max-width: 992px ) {  .nav button {
+/* from 767px to 992px  */
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .nav button {
     box-shadow: 1px 1px 15px #eeee;
     position: absolute;
     top: 15px;
@@ -1104,9 +1106,10 @@ margin-left:-80px;  }
     left: 420px;
     transition: all 0.5s ease;
   }
+  
   .nav .navbar-nav {
     position: relative;
-    background-color: rgb(133, 22, 41);
+    background-color:white;
     left: -500px;
     width: 500px;
     top: 30px;
@@ -1120,7 +1123,7 @@ margin-left:-80px;  }
   }
 
   .collapse .nav-item .nav-link {
-    color: white;
+    color: rgb(133, 22, 41);
     font-size: 17px;
     margin: auto;
   }
@@ -1183,8 +1186,9 @@ margin-left:-80px;  }
   }
   .Services .container .row .card {
     height: 300px;
-    width:210px;
-margin-right: -30px;  }
+    width: 210px;
+    margin-right: -30px;
+  }
 
   .Services .container .row .testimotionals .card .content p {
     font-size: 15px;
@@ -1197,13 +1201,13 @@ margin-right: -30px;  }
     margin-top: 10px;
   }
   .AboutUs .row .left {
-    width: 340px;
+    width: 190px;
     height: 420px;
   }
 
   .AboutUs .row .right {
-    margin-left: -120px;
-    width: 680px;
+    margin-left: 0px;
+    width: 620px;
   }
 
   .AboutUs .container img {
@@ -1211,7 +1215,6 @@ margin-right: -30px;  }
     height: 230px;
     margin-left: 100px;
     margin-bottom: -270px;
- 
   }
 
   .AboutUs .container .text {
@@ -1239,7 +1242,9 @@ margin-right: -30px;  }
   }
   /* ----------------------------- */
 
-  .Team{height: 400px;}
+  .Team {
+    height: 400px;
+  }
 
   .Team h4 {
     margin-top: -380px;
@@ -1251,7 +1256,7 @@ margin-right: -30px;  }
     font-size: 32px;
   }
   .Team .container .row {
-   margin-left: 40px;
+    margin-left: 40px;
   }
   .Team .card {
     margin-top: -230px;
@@ -1348,21 +1353,24 @@ margin-right: -30px;  }
   footer h3 {
     font-size: 31px;
     text-align: center;
-  margin-top: 40px;}
+    margin-top: 40px;
+  }
   footer h6 {
     font-size: 15px;
   }
   footer .text-muted {
     font-size: 10px !important;
-  }}
+  }
+}
 
+/* from 992px to 1200px */
 
-  /* from 992px to 1200px */
-
-   @media all and (min-width:992px)and (max-width: 1200px )  {
-  nav{margin-left: -40px;}
-  .collapse .nav-item  {
-margin-left:-20px;
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  nav {
+    margin-left: -40px;
+  }
+  .collapse .nav-item {
+    margin-left: -20px;
   }
   /* ------------ */
 
@@ -1380,12 +1388,11 @@ margin-left:-20px;
     margin-top: 30px;
   }
   .Backgrondone .text h1 {
-    font-size:26px;
+    font-size: 26px;
     letter-spacing: 4px;
     margin-right: -460px;
     word-spacing: 4px;
     margin-top: 30px;
-
   }
   .Backgrondone span:nth-child(1) {
     font-size: 29px;
@@ -1422,7 +1429,7 @@ margin-left:-20px;
   }
   .Services .container .row .cards {
     display: flex;
-    flex-flow: row ;
+    flex-flow: row;
   }
   .Services .container .row .card {
     height: 300px;
@@ -1453,7 +1460,7 @@ margin-left:-20px;
     width: 65%;
     height: 290px;
     margin-left: 100px;
-    margin-bottom:-150px;
+    margin-bottom: -150px;
   }
 
   .AboutUs .container .text {
@@ -1489,7 +1496,7 @@ margin-left:-20px;
     font-size: 32px;
   }
   .Team .container .row {
-   margin-left: 00px;
+    margin-left: 00px;
   }
   .Team .card {
     margin-top: -140px;
@@ -1508,11 +1515,13 @@ margin-left:-20px;
   .Team .btnss {
     display: flex;
     flex-flow: row;
-    margin-left:360px;
+    margin-left: 360px;
     margin-top: -90px;
   }
   /* ------------------ */
- .featured {padding-bottom: 30px;}
+  .featured {
+    padding-bottom: 30px;
+  }
   .featured h4 {
     font-size: 15px;
     margin-left: 170px;
@@ -1559,7 +1568,8 @@ margin-left:-20px;
   .swiper .container .row {
     width: 880px;
     height: 300px;
-margin-right:20px;  }
+    margin-right: 20px;
+  }
   .swiper .container .row .carousel-inner .carousel-item p {
     font-size: 12px;
   }
@@ -1586,5 +1596,5 @@ margin-right:20px;  }
   }
   footer .text-muted {
     font-size: 10px !important;
-  }    
   }
+}

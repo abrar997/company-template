@@ -2,7 +2,9 @@ import React, { Component } from "react";
 
 export class Featuredcase extends Component {
   render() {
+  
     const { infoFeatured } = this.props;
+  
     const Featured = infoFeatured.map(( item ,ind) => {
       return (
         <div key={ind} className="item d-flex col-lg-6">

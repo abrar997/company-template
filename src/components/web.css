@@ -61,15 +61,12 @@ nav .navbar-brand span:nth-child(2) {
   padding: 16px;
   font-size: 23px;
   color: rgb(133, 22, 41);
-  /* transition: all 0.9s ease; */
   text-transform: capitalize;
   transition: all 0.7s ease;
 }
 
 .collapse .nav-item:hover .nav-link {
-  /* background-color: rgb(133, 22, 41); */
   color: rgb(185, 174, 174);
-  /* padding-bottom: 12px; */
   font-size: 21px;
 }
 

@@ -2,18 +2,16 @@ import React, { Component } from "react";
 // image
 import Background from "../images/Background.jpg";
 
-
 class Backgrondone extends Component {
   state = {
-    spanchange: " Committed to success",
+    spanchange: "Committed to success",
     pChange: "",
   };
 
   changeInfo = () => {
     this.setState({
       spanchange: "our goals",
-      pChange:
-        "apply what you  want with three months to edit your web ,perfect web with a beautiful design and  action in section",
+      pChange:"apply what you  want with three months to edit your web ,perfect web with a beautiful design and  action in section",
     });
   };
 
@@ -27,9 +25,12 @@ class Backgrondone extends Component {
           <div className="conatiner">
             <div className="row">
               <div className="text">
-                <div className="textBackground mt-4" data-aos="fade-left"
+                <div
+                  className="textBackground mt-4"
+                  data-aos="fade-left"
                   data-aos-easing="linear"
-                  data-aos-duration="4000">
+                  data-aos-duration="4000"
+                >
                   <h4 className=" mt-4 pt-4">
                     {/* <span>----</span> */}
                     <span data-aos="fade-up">{this.state.spanchange}</span>
